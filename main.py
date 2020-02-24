@@ -9,7 +9,6 @@ def make_commit(days: int):
 
         with open('data.txt', 'a') as file:
             file.write(f'{dates}\n') 
-
             # Staging 
             os.system('git add data.txt')
 
